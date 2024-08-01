@@ -1,4 +1,6 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-theme-prologue"
-gem "webrick"
+
+gem 'jekyll', '~> 4.2.0'
+gem 'webrick', '~> 1.7'
+gem 'kramdown-parser-gfm'
+gem 'jekyll-theme-prologue'
